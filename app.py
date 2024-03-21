@@ -3,7 +3,7 @@ import streamlit as st
 from datetime import datetime
 import mysql.connector
 import uuid
-
+#add a note
 # Initialize session state for message tracking and other variables
 if "last_submission" not in st.session_state:
     st.session_state["last_submission"] = ""
